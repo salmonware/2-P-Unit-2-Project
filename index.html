@@ -1,14 +1,14 @@
 <!--Unit 2 Project
 Requirements
-[  ] Two Element Selectors
-[  ] Two ID Selectors
-[  ] Two Class Selectors
-[  ] Three Images
+[ x ] Two Element Selectors
+[ x ] Two ID Selectors
+[ x ] Two Class Selectors
+[ x ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include Border Radius CSS Property 
 [ no ] Feature 2 - Include a Static Background Image
-[ no ] Feature 3 - Include An Animated Background Color Change
+[ yes ] Feature 3 - Include An Animated Background Color Change
 [ no ] Feature 4 - Embed YouTube Video 
 [ no ] Feature 5 - Include Border CSS Property 
 -->
@@ -21,7 +21,7 @@ Select ONE Additional Feature to Add
 
         <style>
             body {
-                animation: colorChange 120s;
+                animation: colorChange 66s;
                 text-align:center;
                 background-color: red;
             }
@@ -36,6 +36,7 @@ Select ONE Additional Feature to Add
                 color:red;
             }
             #ominous {
+                font-family: 'Courier New', Courier, monospace;
                 color:black;
             }
             h1 {
@@ -47,6 +48,9 @@ Select ONE Additional Feature to Add
             }
             #leftfish {
                 transform: scaleX(-1);
+            }
+            #haven {
+                font-family: 'Courier New', Courier, monospace;
             }
         </style>
     </head>
@@ -73,6 +77,9 @@ Select ONE Additional Feature to Add
         </p>
         <img class="fish" src="https://png.pngtree.com/png-vector/20260115/ourmid/pngtree-red-fish-icon-vector-png-image_18528308.webp" width="100">
         <p id="ominous">You've stayed here long enough.</p>
-        <img src="https://www.onlygfx.com/wp-content/uploads/2020/06/deer-silhouette-1.png" width="100" height="100">
+        <a href="whymustwe.html">
+            <img src="https://www.onlygfx.com/wp-content/uploads/2020/06/deer-silhouette-1.png" width="100" height="100">
+        </a>
+        <p id="haven">^ Deers like attention. ^</p>
     </body>
 </html>
