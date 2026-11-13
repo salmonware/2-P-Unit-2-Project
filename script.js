@@ -25,8 +25,18 @@ button.addEventListener("click", (e) => {
     else if (dacode === "TRACKER") {
         window.open("http://127.0.0.1:3000/stare.html", "_blank");
         message.textContent = "";
+    }
+    else if (dacode === "CMILE") {
+        window.open("https://youtube.com/shorts/YENt0yNSrN8?is=WRilxMNxpb80xnYt", "_blank");
+        message.textContent = "";
     } 
+    else if (dacode === "") {
+        message.textContent = "Aurora, Colorado";
+    }
     else {
         message.textContent = "Code Invalid";
     }
+    
 });
+
+//https://youtube.com/shorts/YENt0yNSrN8?is=WRilxMNxpb80xnYt
