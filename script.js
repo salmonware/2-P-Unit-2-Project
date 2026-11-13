@@ -23,7 +23,7 @@ button.addEventListener("click", (e) => {
         message.textContent = "";
     } 
     else if (dacode === "TRACKER") {
-        window.open("http://127.0.0.1:3000/stare.html", "_blank");
+        window.open("https://salmonware.github.io/sanguine/", "_blank");
         message.textContent = "";
     }
     else if (dacode === "CMILE") {
